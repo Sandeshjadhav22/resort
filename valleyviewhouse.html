@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VALLEY VIEW BEACON RESORT</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bookbtn.css">
+	<script src="https://kit.fontawesome.com/a32ac9fbfd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- <div class="header2">	 -->
+	<nav id="navBar">
+		<a href="index.html">
+		<img src="images/logo-red.png" class="logo"></a>
+		<ul class="nav-links">
+			<li><a href="index.html">Homepage</a></li>
+			<!-- <li><a href="#">Travel Outside</a></li> -->
+			<li><a href="listing.html">Trending resorts</a></li>
+		</ul>
+		<a href="index1.html" class="register-btn">LOGIN | SIGN UP</a>
+		<i class="fas fa-bars" onclick="togglebtn()"></i>
+	</nav>
+	<div class="house-details">
+		<div class="house-title">
+			<h1>VALLEY VIEW BEACON RESORT</h1>
+			<div class="row">
+				<div>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					<i class="far fa-star"></i>
+					<span>507 Reviews</span>
+				</div>
+				<div>
+					<p>Location: Mahabaleshwar, India</p>
+				</div>				
+			</div>
+		</div>
+		<div class="gallery">
+			<div class="gallery-img-1"><img src="Mahabaleshwar/Valley View Beacon Resort/1.JPG"></div>
+			<div><img src="Mahabaleshwar/Valley View Beacon Resort/2.JPG"></div>
+			<div><img src="Mahabaleshwar/Valley View Beacon Resort/3.JPG"></div>
+			<div><img src="Mahabaleshwar/Valley View Beacon Resort/4.JPG"></div>
+			<div><img src="Mahabaleshwar/Valley View Beacon Resort/5.JPG"></div>
+		</div>
+		<div class="small-details">
+			<h2>Entire rental unit Hosted by Sandesh</h2>
+			<p>7 guest &nbsp; &nbsp; 3 bedrooms &nbsp; &nbsp; 2 bathroom</p>
+			<h4>Price: <span> &#8377;2500</span></h4>
+		</div>
+		<hr class="line">
+		<form class="check-form">
+			<div>
+				<label>Check-in</label>
+				<input type="date" placeholder="Add Date">
+			</div>
+			<div>
+				<label>Check-out</label>
+				<input type="date" placeholder="Add Date">
+			</div>
+			<div class="guest-field">
+				<label>Guest</label>
+				<input type="number" min="1" max="7" placeholder="7 guest">
+			</div>
+			<button type="submit">Check Availability</button>
+		</form>
+
+		<ul class="details-list">
+			<li><i class="fas fa-home"></i>Entire Home
+				<span>You will have the entire resort for you.</span>
+			</li>
+			<li><i class="fas fa-paint-brush"></i>Enhanced Clean
+				<span>This host has committed to our cleaning process.</span>
+			</li>
+			<li><i class="fas fa-map-marker-alt"></i>Great Location
+				<span>90% of recent guests gave the location a 5 star rating.</span>
+			</li>
+			<li><i class="fas fa-heart"></i>Great check-in Experience
+				<span>100% of recent guests gave the check-in process a 5 star rating.</span>
+			</li>
+		</ul>
+		<hr class="line">
+
+		<p class="home-desc">View is the dynamic result of one or more relational operations operating on the base relations to produce another relation. Base relation exists as a set of data in thedatabase. A view does not contain any data, rather a view is defined as a query on one or more base relations and a query on the view is translated into a query on the associated base relations</p>
+
+		<div class="map">
+			<h3>Map of Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30369.828322475285!2d73.6247078!3d17.9214914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc265515e435199%3A0x614a333882eed125!2sValley%20View%20Beacon%20Resort%2C%20Mahabaleshwar!5e0!3m2!1sen!2sin!4v1679733189404!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<b>Mahabaleshwar, India</b>
+			<p>Its like a home away from a home.</p>
+		</div>
+
+		<hr class="line">
+		<div class="host">
+			<img src="images/host.png">
+			<div>
+				<h2>Hosted by Sandesh</h2>
+				<p><span>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+			 	</span>&nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response Time: 60 min</p>
+		    </div>
+		</div>
+
+		<a href="#" class="contact-host">Contact Host</a>
+
+	</div>
+	<div class="container">
+		<div class="footer">
+			<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+			<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+			<a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+			<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+			<hr>
+			<p>Copyright @ 2022, Resort.</p>
+		</div>
+	</div>
+	<script>
+	var navBar = document.getElementById("navBar");
+
+	function togglebtn(){
+		navBar.classList.toggle("hidemenu")
+	}
+</script>
+</body>
+</html>
