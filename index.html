@@ -5,6 +5,7 @@
 	<title>Homepage</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="https://kit.fontawesome.com/a32ac9fbfd.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </head>
 <body>
 
@@ -25,15 +26,15 @@
 			<div class="search-bar">
 				<form>
 					<div class="location-input">
-						<label>Location</label>
-						<input type="text" placeholder="Where are you going?">
-					<!-- <select>
+						<!-- <label>Location</label> -->
+						<label>Where are you going?</label>
+					<select id="cities">
 						<option value="Mumbai">Mumbai</option>
 						<option value="Lonavala">Lonavala</option>
 						<option value="Pune">Pune</option>
 						<option value="Alibaug">Alibag</option>
 						<option value="Mahabaleshwar">Mahabaleshwar</option>
-					</select> -->
+					</select>
 	
 					</div>
 
@@ -51,7 +52,7 @@
 						<label>Guest</label>
 						<input type="number" min="1" placeholder="Add Guest">
 					</div>
-					<button type="submit"><img src="images/search.png"></button>
+					<button id= "go-to-city-btn" type="submit"><img src="images/search.png"></button>
 				</form>
 			</div>
 		</div>
@@ -172,12 +173,12 @@
 				<p>Popular Europian Contries with a budget of just $10,000</p>
 			</div>
 		</div>
-		<a href="#" class="start-btn">Start Making Money</a>
+		<a href="https://forms.gle/X9c4stK1zRV57Kd89" class="start-btn">Start Making Money</a>
 
-		<div class="about-msg">
+		<!-- <div class="about-msg">
 			<h2>About Resort</h2>
 			<p>Earn more money </p>
-		</div>
+		</div> -->
 
 		<div class="footer">
 			<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -232,7 +233,7 @@ body {
 </head>
 <body>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+<!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
 
 
 
@@ -256,7 +257,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-</script>
+</script> -->
 
 </body>
 </html>
